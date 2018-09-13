@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb6dc272-9abd-4841-b1fc-89015989e8c6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/c#.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/c#.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/c++.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/c++.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/c.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ensamblador.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ensamblador.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/go.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/go.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/javascript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/net.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/net.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/pascal.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/pascal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/perl.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/perl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/php.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/python.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/python.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/ruby.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/ruby.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sql.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/sql.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/swift.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/swift.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +14,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="swift.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/swift.html">
+    <leaf>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="111" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
+            <state relative-caret-position="420">
+              <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -64,8 +60,6 @@
         <option value="$PROJECT_DIR$/assets/json/salario.json" />
         <option value="$PROJECT_DIR$/assets/json/cantidad.json" />
         <option value="$PROJECT_DIR$/assets/js/sueldo.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/html/c#.html" />
         <option value="$PROJECT_DIR$/html/c++.html" />
         <option value="$PROJECT_DIR$/html/c.html" />
@@ -80,6 +74,9 @@
         <option value="$PROJECT_DIR$/html/ruby.html" />
         <option value="$PROJECT_DIR$/html/sql.html" />
         <option value="$PROJECT_DIR$/html/swift.html" />
+        <option value="$USER_HOME$/Descargas/Eternalblue-Doublepulsar-Metasploit-master/eternalblue_doublepulsar.rb" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
       </list>
     </option>
   </component>
@@ -93,7 +90,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
+    <option name="x" value="276" />
     <option name="y" value="80" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -103,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,13 +111,18 @@
             <path>
               <item name="ranking" type="b2602c69:ProjectViewProjectNode" />
               <item name="ranking" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ranking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ranking" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +180,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18926397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19147758" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -195,25 +198,25 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18705036" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" id="SciView" order="0" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info id="Favorites" order="0" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,13 +290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/sueldo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -301,13 +297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="757">
           <caret line="91" selection-start-line="91" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2120">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
         </state>
       </provider>
     </entry>
@@ -411,8 +400,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/swift.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="111" selection-start-line="32" selection-start-column="111" selection-end-line="32" selection-end-column="111" />
+        <state relative-caret-position="285">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Descargas/Eternalblue-Doublepulsar-Metasploit-master/eternalblue_doublepulsar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,41 @@
+@media(min-width:421px) and (max-width: 600px){
+  .content{
+      width: 90vh;
+      height: 60vh;
+  }
+    .container{
+        background-color: blue;
+    }
+    .numero-elemento{
+        width: 30px;
+        height: 30px;
+
+    }
+}
+
+@media(min-width:601px){
+    .content{
+        width: 95vh;
+        height: 60vh;
+
+    }
+    .container{
+        background-color: white;
+    }
+    th{
+        display: table-cell;
+
+    }
+    td{
+        display: table-cell;
+    }
+    .numero-elemento{
+        width: 40px;
+        height: 40px;
+    }
+    .far{
+        display: inline-block;
+
+    }
+}
+

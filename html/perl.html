@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../assets/css/java.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="../assets/css/normalize.css" />
     <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
@@ -10,27 +11,29 @@
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
+
     <title>Lenguajes de programacion 2018</title>
 </head>
 <body>
-    <div class="container">
-        <div class="content animated fadeInRight">
-            <div class="action">
-                <a href="../" class="close">
-                    <span>X</span>
-                </a>
-            </div>
-            <header>
-                <h2>
-                    <span class="position">10</span>
-                    5 razones para aprender Perl
-                </h2>
-                <section>
-                    <div>
-                        <div class="under">
+<div class="container">
+    <div class="content animated fadeInRight">
+        <div class="action">
+            <a href="../" class="close">
+                <span>X</span>
+            </a>
+        </div>
+        <header>
+            <h2>
+                <span class="position">10</span>
+                5 razones para aprender Perl
+            </h2>
+            <section>
+                <div>
+                    <div class="under">
                         <div class="center">
-                            <div class="texto">
-                                <iframe width="420" height="315" src="https://www.youtube.com/embed/VvSvLcR1Gso"></iframe>
+                            <div class="item-video">
+                                <iframe  src="https://www.youtube.com/embed/VvSvLcR1Gso"></iframe>
+
                             </div>
 
                         </div>
@@ -39,53 +42,42 @@
                                 <ol>
                                     <li>
                                         Interpretado.
-                                        <li class="claseli">Perl es un lenguaje interpretado, de alto nivel, con el que resulta sencillo realizar scripts rápidos, con un tiempo de vida previsto corto...</li>
+                                    <li class="claseli">Perl es un lenguaje interpretado, de alto nivel, con el que resulta sencillo realizar scripts rápidos, con un tiempo de vida previsto corto...</li>
 
                                     </li>
                                     <li>
                                         Enfoque.
-                                        <li class="claseli">Aunque su enfoque básico sea declarativo, permite una programación orientada a objetos. Da la impresión, eso sí, de basarse en una sintaxis inventada sobre la marcha;...</li>
+                                    <li class="claseli">Aunque su enfoque básico sea declarativo, permite una programación orientada a objetos. Da la impresión, eso sí, de basarse en una sintaxis inventada sobre la marcha;...</li>
                                     </li>
                                     <li>
                                         flexible y potente.
-                                        <li class="claseli">El más cercano sería Python. Al igual que éste ofrece un uso flexible y potente de listas y mapas (hashes), garbage collection, uso de variables sin declaración previa.
-                                                                En Python hay que asignarles un valor antes de utilizarlas;
-                                                                en Perl se inicializan a cero (o a “”, según el contexto) de forma implícita...</li>
+                                    <li class="claseli">El más cercano sería Python. Al igual que éste ofrece un uso flexible y potente de listas y mapas (hashes), garbage collection, uso de variables sin declaración previa.
+                                        En Python hay que asignarles un valor antes de utilizarlas;
+                                        en Perl se inicializan a cero (o a “”, según el contexto) de forma implícita...</li>
+                                    </li>
+                                    <li>
+                                        El ámbito.
+                                    <li class="claseli">El ámbito, así como el tiempo de vida de las variables, es flexible. Desde variables globales hasta las que desaparecen con la llave de cierre. Lo echo de menos en Python....</li>
+                                    </li>
+                                    <li>
+                                        Modo taint.
+                                    <li class="claseli"> característica muy interesante y que no he visto en otros lenguajes. Existe porque uno de los nichos clásicos, antes de que lenguajes más modernos ocuparan el lugar, era el del desarrollo web (CGI, no sé hasta qué punto sobrevivió a la llegada de AJAX y demás). En este modo, cualquier dato que venga del exterior está marcado como envenenado, lo cual limita mucho las cosas que podemos hacer con él.</li>
                                     </li>
                                 </ol>
 
                             </div>
                         </div>
                     </div>
-                    <div class="texto3">
-                        <ol>
-                            <li>
-                                 El ámbito.
-                                <li class="claseli">El ámbito, así como el tiempo de vida de las variables, es flexible. Desde variables globales hasta las que desaparecen con la llave de cierre. Lo echo de menos en Python....</li>
 
 
-                            </li>
-                            <li>
-                                Modo taint.
-                                <li class="claseli"> característica muy interesante y que no he visto en otros lenguajes. Existe porque uno de los nichos clásicos, antes de que lenguajes más modernos ocuparan el lugar, era el del desarrollo web (CGI, no sé hasta qué punto sobrevivió a la llegada de AJAX y demás). En este modo, cualquier dato que venga del exterior está marcado como envenenado, lo cual limita mucho las cosas que podemos hacer con él.</li>
+            </section>
 
-
-                            </li>
-
-
-                    </div>
-                    </div>
-
-
-
-                </section>
-
-            </header>
-        </div>
-
+        </header>
     </div>
 
+</div>
 
-    <script src="../assets/js/main.js"></script>
+
+<script src="../assets/js/main.js"></script>
 </body>
 </html>

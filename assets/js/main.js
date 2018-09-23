@@ -1,7 +1,7 @@
 let elementlist = document.querySelectorAll(".far");
 elementlist.forEach(function(element){
     element.addEventListener('click',function(ev){
-        /* alert("carita clikeada"); */
+        alert(" clikeada");
          element.getElementsByClassName("far");
          element.style.background='#CCCCCC';
     })

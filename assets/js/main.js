@@ -1,9 +1,20 @@
 let elementlist = document.querySelectorAll(".far");
-elementlist.forEach(function(element){
+/*var i = -1;*/
+elementlist.forEach( function(element, i){
+    /*  i++; */
     element.addEventListener('click',function(){
-        alert(" clikeada");
-         element.getElementsByClassName("far");
-         element.style.background='#CCCCCC';
+        var j = i;
+         alert(" No prodrá bajar la nota, una vez realizada");
+        var posicion = parseInt(element.innerHTML);
+        console.log(posicion);
+       for(;posicion>0;posicion--){
+           elementlist[j].style.background='#CCCCCC';
+           j--;
+       }
+
+       /* elementlist[j-posicion].style.background='#CCCCCC';
+            /* element.getElementsByClassName(".far"); */
+            /*element.style.background='#CCCCCC';*/
     })
 
 

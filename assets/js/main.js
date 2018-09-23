@@ -1,3 +1,13 @@
+let elementlist = document.querySelectorAll(".far");
+elementlist.forEach(function(element){
+    element.addEventListener('click',function(ev){
+        /* alert("carita clikeada"); */
+         element.getElementsByClassName("far");
+         element.style.background='#CCCCCC';
+    })
+
+
+});
 let closes = document.querySelectorAll(".close");
 let content = document.querySelector(".content");
 closes.forEach(function (close) {

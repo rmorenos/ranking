@@ -16,6 +16,7 @@ html{
     overflow: scroll;
     padding: 0.5em;
     border-radius: 20px;
+
 }
 
 .container{
@@ -188,12 +189,18 @@ iframe {
 
 
 /**                              **/
-@media ( min-width: 500px) and (max-width: 800px) {
+@media ( min-width: 580px) and (max-width: 800px) {
     th{
         display:table-cell;
     }
     td{
         display:table-cell;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(2){
+        text-align: center;
     }
     td:nth-of-type(5){
         display: none;
@@ -213,13 +220,23 @@ iframe {
 
 
 
-@media ( min-width: 801px) and (max-width: 974px) {
+@media ( min-width: 801px) and (max-width: 1114px) {
     th{
         display:table-cell;
     }
     td{
         display:table-cell;
     }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(5){
+        text-align: center;
+    }
+
     td:nth-of-type(6){
         display: none;
     }
@@ -256,12 +273,80 @@ iframe {
 
 }
 
-@media ( min-width: 975px)  {
+@media ( min-width: 1115px) and ( max-width: 1200px)  {
     th{
         display:table-cell;
     }
     td{
         display:table-cell;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+
+    td:nth-of-type(5){
+        display: none;
+    }
+    th:nth-of-type(5){
+        display: none;
+    }
+    .content{
+        width: 70vw;
+        height: 70vh;
+        padding: 1.8em;
+    }
+
+    img{
+        width: 25vw;
+        height: 25vh;
+    }
+    iframe{
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .item-image{
+        display: inline-block;
+    }
+
+    .line{
+        display: inline-block;
+    }
+    .actions {
+        position: absolute;
+        top: 1em;
+        right: 1em;
+    }
+    .title-item {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+
+}
+@media ( min-width: 1201px)  {
+    th{
+        display:table-cell;
+    }
+    td{
+        display:table-cell;
+    }
+    td:nth-of-type(2){
+        text-align: center;
+    }
+    th:nth-of-type(2){
+        text-align: center;
+    }
+    td:nth-of-type(5){
+        text-align: center;
+    }
+    th:nth-of-type(6){
+        padding-left: 3em;
+    }
+    th:nth-of-type(5){
+        text-align: center;
     }
     .content{
         width: 70vw;
